@@ -6,11 +6,6 @@
 dfx identity get-principal
 ```
 
-2. Save it somewhere.
-
-e.g. My principal id is: zepem-3wa5d-jerob-35ict-vdf3o-lkymy-xk4w3-nsiwz-xqmrc-g2bgz-cqe
-
-
 3. Format and store it in a command line variable:
 ```
 OWNER_PUBLIC_KEY="principal \"$( \dfx identity get-principal )\""
